@@ -1,11 +1,5 @@
-const main = document.querySelector('#main')
-
 main.remove()
+const newHeader = document.createElement("h1");
 
-const newHeader = document.createElement('h1')
-
-newHeader.setAttribute("id", "victory")   
-
-newHeader.innerHTML = "Jonathan is the champion"
-
-document.body.append(newHeader)
+newHeader.id = "victory"
+newHeader.innerHTML = "<h1>Jonathan is the champion</h1>"
